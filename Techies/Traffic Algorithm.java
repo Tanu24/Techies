@@ -31,7 +31,7 @@ Traffic(){cal.setTimeZone(tz);
 	 String dbUrl = "jdbc:db2://localhost:50000/tgmc";
 	 String dbUser = "db2admin";
 		String dbPassword = "tanu"; 
-    Connection con = null;
+    Connection con =  null;
     try{
     	Class.forName(driverClass); 
     	con = DriverManager.getConnection(dbUrl,dbUser,dbPassword);
